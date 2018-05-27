@@ -1,0 +1,12 @@
+<div >
+  <input type="text" [(ngModel)]="title" class="content" name="title" placeholder="Your comment">
+  <input  type='text' [(ngModel)]="content" class="content" name="content" placeholder="Your name">
+  <button type="submit"  (click)="addPost()" >Add comment</button>
+  <ul *ngFor='let post of posts | async'>
+    <li>
+      <strong>{{ post.title }} </strong>
+        <br>
+          {{ post.content }}
+    </li>
+  </ul>
+  </div>

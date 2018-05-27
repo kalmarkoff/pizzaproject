@@ -1,0 +1,98 @@
+
+<div *ngIf="!sizechoosed">
+    <h1>Choose pizza size</h1>
+    <div class="pizzasize">
+    <div *ngFor="let size of sizes" class="duo">
+        <span>{{size.size}} </span>
+        <img src="{{size.img}}"   (click)="choosesize($event)" >
+    </div>
+    </div>
+</div>
+
+<div *ngIf="false">
+<h1>Choose add mear or seafood</h1>
+<div class="gallery-title" >
+        <div class="gallery-element portrait" (click)="meatandseafood(1)">
+          <img src="https://cdn.discordapp.com/attachments/401708831920488449/448638331799207966/bacon-png.png" id="galElem" class="gallery-element-p">
+          <a class="gallery-element-info" >
+              <div class="short-description">
+                  <p>1</p>
+                <p>1</p>
+              </div>
+          </a>
+        </div>
+        <div class="gallery-element portrait" (click)="meatandseafood(2)">
+            <img src="https://cdn.discordapp.com/attachments/401708831920488449/448636060084338689/slider_image_crab_700_mob.png" id="galElem" class="gallery-element-p">
+            <a class="gallery-element-info" >
+                <div class="short-description">
+                    <p>1</p>
+                  <p>1</p>
+                </div>
+            </a>
+          </div>
+</div>
+</div>
+
+
+<div *ngIf="true">
+<div class="products">
+        <div class="gallery-title" *ngIf="false"> 
+    <div class="gallery-element portrait" *ngFor="let meat of meats" (click)="test(meat.price)" >
+        <img src="{{meat.img}}" id="galElem" class="gallery-element-p">
+        <a class="gallery-element-info" >
+            <div class="short-description">
+                <h1>Choosee 1 component</h1>
+                <p>{{meat.name}}</p>
+              <p>{{meat.price}}$</p>
+            </div>
+        </a>
+      </div>
+      </div>
+      <div class="gallery-title" *ngIf="choosedproduct==2"> 
+            <div class="gallery-element portrait" *ngFor="let sea of seafood" (click)="test(sea.price)">
+                <img src="{{sea.img}}" id="galElem" class="gallery-element-p">
+                <a class="gallery-element-info" >
+                    <div class="short-description">
+                        <p>{{sea.name}}</p>
+                      <p>{{sea.price}}$</p>
+                    </div>
+                </a>
+              </div>
+              </div>
+        <div class="gallery-title" *ngIf="choosedproduct==3">     
+                    <div class="gallery-element portrait" *ngFor="let vegetable of vegetables" (click)="test(vegetable.price)">
+                        <img src="{{vegetable.img}}" id="galElem" class="gallery-element-p">
+                        <a class="gallery-element-info" >
+                            <div class="short-description">
+                                <p>{{vegetable.name}}</p>
+                              <p>{{vegetable.price}}$</p>
+                            </div>
+                        </a>
+                      </div>
+        </div>
+        <div class="gallery-title" *ngIf="choosedproduct==4" >   
+    <div class="gallery-element portrait" *ngFor="let cheese of cheeses" (click)="test(cheese.price)">
+        <img src="{{cheese.img}}" id="galElem" class="gallery-element-p">
+        <a class="gallery-element-info" >
+            <div class="short-description">
+                <p>{{cheese.name}}</p>
+              <p>{{cheese.price}}$</p>
+            </div>
+        </a>
+      </div>
+      </div>
+</div>
+</div>
+<div  class="pizzacost" *ngIf="choosedproduct==5">
+    <h1>Total cost = {{total | currency}}</h1>
+    <br>
+    <div>
+    <button class="green"> Add to cache </button>
+    <button class="green" (click)="startagain()" >Create again</button>
+    </div>
+</div> <br>
+
+
+
+
+

@@ -1,0 +1,662 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="text"], input[type="email"], input[type="submit"] {
+   border: 0px solid #111; 
+   background: rgba(0, 0, 0, .0) !important; 
+   outline: none;  
+   height: 60px; 
+   width: 200px;
+   color: #ffffff; 
+   font-size: 48px;
+   font-family: 'Fjalla One', sans-serif; 
+  }
+  
+  /*Main page*/
+  
+  body {
+    min-height: 100vh;
+  }
+  
+    .header {
+        height: 80px;
+        background-color: #171717;
+    }
+        .header-wrapper {
+            margin: 0 auto;
+            width: 1092px;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .menu {
+                margin-left: 6px;
+            }
+                .menu a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Fjalla One', sans-serif;
+                    text-transform: uppercase;
+                }
+                .menu a:hover {
+                    text-decoration: underline;
+                }
+                    .top-menu li {
+                            display: inline-block;
+                            padding: 10px 30px;
+                            margin: 0;
+                        }
+                        .header-wrapper nav {
+                            margin: auto;
+                        }
+                        nav li {
+                                list-style-position: inside;
+                                padding: 10px;
+                            }
+                                nav a {
+                                        text-decoration: none;
+                                        color: gray;
+                                    }
+            .logo img{
+                height: 60px;
+                margin-left: calc(50% - 10px); 
+            }
+            .mail {
+                margin-right: 6px;
+            }
+                .mail a {
+                    float: right;
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Fjalla One', sans-serif;
+                    text-transform: uppercase;
+                }
+                .mail a:hover {
+                    text-decoration: underline;
+                }
+    
+    .artists-list {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+        .artists-list-title {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+            .artists-list-title a {
+                font-family: 'Fjalla One', sans-serif;
+                text-transform: uppercase;
+                margin-top: 30px;
+                font-size: 2em;
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+            }
+        .artists-list-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+            .artists-list-block div {
+                width: 800px;
+            }
+            .fa-arrow-right {
+                position: absolute;
+                right: -20px;
+                top: 1px;
+                cursor: pointer;
+            }
+            .fa-arrow-left {
+                position: absolute;
+                left: -20px;
+                top: 1px;
+                cursor: pointer;
+            }
+                .artists-list-block a {
+                    font-family: 'Fjalla One', sans-serif;
+                    font-size: 16px;
+                    text-decoration: none;
+                    padding: 0px 15px;
+                    margin: 50px 0px;
+                    color: #111;
+                }
+                .artists-list-block a:hover {
+                    text-decoration: underline;
+                }
+    
+    .gallery-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .gallery-title h1 {
+            font-family: 'Fjalla One', sans-serif;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+    .filter-bar {
+        height: 120px;
+    }
+        .filter-bar-wrapper {
+            margin: 0 auto;
+            display: table;
+  
+        }
+            .filter-bar-element {
+                height: 120px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+                .filter-bar-element a {
+                    font-family: 'Fjalla One', sans-serif;
+                    font-size: 16px;
+                    text-decoration: none;
+                    text-align: right;
+                    color: white;
+                    border: 2px solid white;
+                    padding: 15px;
+                    font-weight: bold;
+                    margin: 0 10px;
+                    transition: 300ms;
+                }
+                .filter-bar-element a:hover {
+                    background-color: white;
+                    color: #171717;
+                }
+        .filter-bar-button {
+            display: none;
+            vertical-align: middle;
+            text-align: center;
+        }
+            .filter-bar-button a {
+                font-size: 22px;
+                font-family: 'Fjalla One', sans-serif;
+                text-decoration: none;
+                color: #171717;
+                padding: 20px;
+                border: 2px solid #171717;
+                transition: 300ms;
+            }
+            .filter-bar-button a:hover {
+                background-color: #171717;
+                color: white;
+            }
+        .dropdown-filter {
+            display: none;
+            float: left;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+            .dropdown-filter a {
+                display: block;
+                font-size: 16px;
+                font-family: 'Fjalla One', sans-serif;
+                text-decoration: none;
+                color: #171717;
+                padding: 10px;
+                border: 2px solid #171717;
+                margin-bottom: 10px;
+                transition: all .3s;
+            }
+            .dropdown-filter a:hover {
+                background-color: #171717;
+                color: white;
+            }
+  
+  .slider .owl-carousel .item {
+    height: 375px;
+  }
+  
+  .slider .owl-carousel .item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+  }
+        .gallery , .filter-bar , .gallery-title {
+             background-color: black;
+             color: white;
+        }
+        .gallery-wrapper {
+            width: 1100px;
+            height: 800px;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+            .gallery-element {
+                position: relative;
+                overflow: hidden;
+                width: 350px;
+                height: 234px;
+                background-color: #dbdbdb;
+                margin: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .gallery-element a {
+                    text-decoration: none;
+                }
+                .gallery-element-info {
+                    font-family: 'Fjalla One', sans-serif;
+                    position: absolute;
+                    top: 0; left: 0;
+                    background-color: rgba(0, 0, 0, .0);
+                    color: rgba(255, 255, 255, .0);
+                    width: 100%;
+                    height: 100%;
+                    transition: 300ms;
+                }
+                .gallery-element-p {
+                    object-position: top !important;
+                }
+                .gallery-element img{
+                   max-width: 100%;
+                   max-height: 100%;
+                }
+                .gallery-element-info:hover {
+                    background-color: rgba(0, 0, 0, .5);
+                    color: rgb(255, 255, 255);
+                }
+                    .short-description {
+                        position: absolute;
+                        bottom: 0;
+                        margin: 0px 0px 30px 30px;
+                    }
+                        .short-description p {
+                            padding: 3px 0px;
+                        }
+  .open-menu {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    display: flex;
+    flex-flow: column;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+  }
+  .hiden {
+    display: none !important;
+  }
+    
+    .ww1 {
+        display: flex;
+    }
+    .ww2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: -120px;
+    }
+    .om-menu {
+        margin-left: 5px;
+    }
+        .open-menu li {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 36px;
+            text-align: center;
+            margin: 15px 0px;
+            list-style-type: none;
+        }
+            .open-menu a {
+                text-decoration: none;
+                color: white;
+            }
+            .close-menu {
+                align-self: flex-end;
+            }
+  /* .open-search {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: table;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+  }
+    .open-search-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .close-search {
+        float: right;
+    }
+        .open-search-wrapper input {
+            display: block;
+            margin: 0 auto;
+        }
+        .os-search {
+            margin-right: 5px;
+            display: table-cell;
+            vertical-align: middle;
+        } */
+  
+  
+  /* Picture of one page*/
+  .picture {
+    font-family: 'Fjalla One', sans-serif;
+  }
+    .picture-wrap {
+        margin: 0 auto;
+        width: 1100px;
+        background-color: #F5F5F5;
+    }
+        .picture-img-block {
+            display: inline-block;
+            width: 50%;
+        }
+        .picture-wrap .picture-img-block img {
+            width: 100%;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+        .full-size-img {
+            width: auto !important;
+            margin: 0 auto;
+        }
+        .picture-description {
+            width: 50%;
+            float: right;
+        }
+        .picture-description-inner {
+            padding: 50px;
+        }
+        .full-size-description {
+            width: 100%;
+        }
+        .full-size-description h3, .full-size-description p, .full-size-description a {
+            padding: 0px 0px 20px 0px !important;
+        }
+        .picture-description h3{
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 19px;
+        }
+        .picture-description p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 16px;
+            padding: 15px 0;
+            font-weight: 600;
+        }
+        .picture-description span {
+            font-family: 'Fjalla One', sans-serif;
+            font-weight: 200;
+        }
+        .picture-description a {
+            color: #000;
+        }
+  
+  
+  
+  .artists-page {
+    margin-top: 3px;
+  }
+    .artists-page-wrap {
+        width: 1092px;
+        margin: 0 auto;
+    }
+        .artists-title {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .artists-page-wrap h1 {
+            font-family: 'Fjalla One', sans-serif;
+            text-transform: uppercase;
+        }
+        .artists-elements {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+            .artists-element {
+                    display: inline-block;
+                    position: relative;
+                    overflow: hidden;
+                    width: 350px;
+                    height: 350px;
+                    background-color: #171717;
+                    margin-bottom: 20px;
+                }
+                    .artists-element a {
+                        text-decoration: none;
+                    }
+                    .artists-element img{
+                        max-width: 100%;
+                        max-height: 100%;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; /* заполнение блока тегом img */
+                        object-position: center; /* центрирование картинки внутри блока*/
+                    }
+  
+  
+  
+  .feedback {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+  }   
+    .feedback .header {
+        position: absolute;
+        width: 1100px;
+        display: flex;
+        justify-content: flex-end;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+        .close-feedback-block {
+            height: 90px;
+            margin-right: 5px;
+            display: flex;
+        }
+            .close-feedback-block a{
+                align-self: center;
+            }
+    .form-block {
+        width: 400px;
+    }
+        .form-block p {
+            font-size: 48px;
+            color: white;
+            margin: 10px 0px;
+        }
+        
+        .form-block input[type="text"], input[type="email"], input[type="submit"] {
+            width: 400px;
+            font-size: 28px;
+            margin: 10px 0px;
+        }
+        .form-block input[type="text"], input[type="email"] {
+            border-bottom: 1px solid #757575;
+        }
+        .form-block input[type="submit"] {
+            width: auto;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(0, 0, 0, 0);
+            transition: 300ms;
+        }
+        .form-block input[type="submit"]:hover {
+            border-bottom: 1px solid white;
+        }
+         textarea {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 24px;
+            color: white;
+            width: 400px;
+            margin: 10px 0px;
+            background: rgba(0, 0, 0, .0) !important;
+            outline: none;
+            resize: none;
+        }
+  
+  .full-size-feedback {
+    display: flex;
+  }
+  
+  .footer {
+     width: 100%;
+     background-color: #171717;
+     margin-top: 30px;
+  }
+    .footer-wrap {
+        width: 1092px;
+        margin: 0 auto;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .rights {
+            color: white;
+            text-align: center;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 12px;
+        }
+  
+  
+  
+  
+  
+  
+  
+  .b-popup{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b-popup .b-popup-content{
+    margin: 0 auto;
+    width:100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b-popup-content img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  
+  
+  
+  footer {
+    background: #171717;
+    color: #dbdbdb;
+    font-size: 11px;
+  }
+  
+  #footer {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px 0;
+    height: 90px;
+  }
+  
+  footer h3 {
+    font: 14px 'Oswald', sans-serif;
+    color: #fff;
+    border-bottom: 1px solid #919191;
+    margin: 0 0 10px 0;
+  }
+  
+  #feedback time a {
+    color: #b4aeae;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  #feedback {
+    float: left;
+    width: 300px;
+  }
+  
+  #feedback p {
+    padding-right: 15px;
+  }
+  
+  footer a {
+    color: #dbdbdb;
+  }
+  
+  #sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    padding-right: 15px;
+  }
+  
+  #sitemap div {
+    display: inline-block;
+  }
+  
+  #sitemap div + div {
+    margin-left: 40px;
+  }
+  
+  #sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  #sitemap a:hover {
+    text-decoration: underline;
+  }
+  
+  #social {
+    float: left;
+    margin-left: 20px;
+    width: 130px;
+  }
+  
+  #social img{
+    
+    width: 20px;
+
+body { margin: 0; }
+  }
+  .mobileapp img {
+    width: 80px;
+  }
+  
+  
+  

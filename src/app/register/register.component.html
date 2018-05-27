@@ -1,0 +1,20 @@
+
+
+  <div id="signup">   
+    <h1>Sign Up for Free</h1>
+    
+    <form>
+    
+    <div class="field-wrap">
+      <input type="email" [(ngModel)]="registerUserData.email" name="email" required/>
+    </div>
+    
+    <div class="field-wrap">
+
+      <input type="password" [(ngModel)]="registerUserData.password" name="password" 
+      required >
+    </div>
+    
+    <button type="button" (click)="registerUser()" class="button button-block">Register</button>
+    
+    </form>

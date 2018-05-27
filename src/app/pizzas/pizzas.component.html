@@ -1,0 +1,35 @@
+
+<h1>gallery</h1>
+<div class="filter-bar">
+    <div class="filter-bar-wrapper">
+        <div rel=".all" class="filter-bar-element">
+            <a href="#">ALL</a>
+        </div>
+        <div rel=".history" class="filter-bar-element">
+            <a href="#">Beef</a>
+        </div>
+        <div rel=".portrait" class="filter-bar-element">
+            <a href="#">Chicken</a>
+        </div>
+        <div rel=".landscape" class="filter-bar-element">
+            <a href="#">Special</a>
+        </div>
+        <div rel=".abstraction" class="filter-bar-element">
+            <a href="#">Vegeterian</a>
+        </div>
+        <div class="filter-bar-button">
+            <a href="#">FILTERS</a>
+        </div>   
+    </div>
+</div>
+<div class="gallery-wrapper">
+<div class="gallery-element portrait"  *ngFor='let pizza of pizzas'>
+  <img src="{{pizza.imageUrl}}" id="galElem" class="gallery-element-p">
+  <a class="gallery-element-info" [routerLink]="[pizza.id]" >
+      <div class="short-description">
+          <p>{{pizza.id}}</p>
+        <p>{{pizza.price | currency }}</p>
+      </div>
+  </a>
+</div>
+</div>

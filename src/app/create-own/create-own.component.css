@@ -1,0 +1,56 @@
+
+
+  .pizzasize {
+    width: 40%;
+    margin: auto;
+  }
+  div .products {
+    display: block;
+ 
+    
+  }
+  h1 {
+    text-align: center;
+    color: bisque;
+    font-style: italic;
+  }
+
+
+  div .duo {
+    display: inline;
+    border: 2px solid white;
+  }
+
+  div .duo img {
+    width: 100px;
+    cursor: pointer;
+  }
+
+ 
+  a {
+    width: 350px;
+  }
+  div  .gallery-element portrait {
+    background-color:black;
+  }
+  .gallery-element {
+    background-color: black;
+  }
+
+  .pizzacost {
+    margin:auto;
+    width: 40%;
+    height:  300px;
+    width:600px;
+    border: 1px solid white; }
+
+  .pizzacost div {
+    width: 40%;
+    margin: auto;
+    }
+  .green {
+    background-color: rgb(6, 136, 6);
+    height: 40px;
+    margin: auto;
+    border-radius: 10px; 
+  }
