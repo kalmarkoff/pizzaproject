@@ -1,0 +1,93 @@
+{
+    "Pizzas":[
+
+    {
+        "id": "4-seasons" , 
+        "price": "100", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669242754400266/4-sezona.jpg",
+        "size":"medium(14-inch)"  
+    }, 
+    {
+        "id": "4-cheeses", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669245451337738/4-syra.jpg",
+        "size":"medium(14-inch)"   
+    },   
+     {
+        "id": "Cesar", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669247351357440/cesar.jpg",
+        "size":"medium(14-inch)"   
+    },
+    {
+        "id": "Double-cheese", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669250283175959/dabl-chiz.jpg",
+        "size":"medium(14-inch)"   
+    }, 
+    {
+        "id": "Double-pepperoni", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669251818291200/dabl-pepperoni.jpg",
+        "size":"medium(14-inch)"   
+    },  
+    {
+        "id": "Philadelphia", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669252548100097/filadelfiya.jpg",
+        "size":"medium(14-inch)"   
+    }, 
+    {
+        "id": "Pepperoni", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669296495886347/pepperoni.jpg",
+        "size":"medium(14-inch)"  
+    }, 
+    {
+        "id": "Ranch", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669298278465547/ranch.jpg",
+        "size":"medium(14-inch)" 
+    }, 
+    {
+        "id": "For-vegans", 
+        "price": "120", 
+        "imageUrl": "https://cdn.discordapp.com/attachments/401708831920488449/438669303206641664/vegetarianskaya.jpg",
+        "size":"medium(14-inch)"  
+    }
+    ],
+    "Cards": [
+    {"title": "About", 
+        "cols": 2, 
+        "rows": 1,
+        "img":"",
+        "images":{
+            "icecream":"",
+            "icecream2":"" 
+        },
+         "content": "We are an exciting Italian Restaurant  Lounge located on Hudson Street in NYC, promising to provide a new kind of eating and drinking establishment, transforming and elevating the traditional pizza eating experience. Everything from the art on the walls, to the streaming videos, to the Adoro playlist has been carefully curated to create the ultimate upscale pizza party. Entrepreneurs Rick Froio and Joseph Primiano teamed with long time friend, Creative Director Michael DiBugnara to make their dream become reality - create a restaurant and environment where impeccable service, gracious hospitality and delicious food meet fun music and good times. We want to elevate the experience of the Pizza Party, says DiBugnara. Adoro Lei is a place where you can eat amazing pizza, and other great food, but also have a good time. We want people to share, and adore each other while we adore them" },
+    {"title": "", "cols": 1, "rows": 1,
+        "img":"https://cdn.discordapp.com/attachments/401708831920488449/449911933303390208/static-hero-about-us.jpg", 
+        "images":{
+            "icecream":"",
+            "icecream2":"" 
+        },
+        "content":"Pizza is no easy feat in NYC, but with a distinct focus on the sensual aspects of adoration,  Adoro Lei , has proven that pizza dining can be a sophisticated and upscale experience.." },
+    {"title": "Food & Drinks", "cols": 1, "rows": 1,
+        "img":"",
+        "images":{
+            "icecream":"",
+            "icecream2":"" 
+        },
+        "content":"At the culinary helm of Adoro Lei, Executive Chef Mario Gentile serves delicious Neapolitan pizza from our custom wood-burning oven, along side creative pasta dishes and unique Italian delicacies. Trained under Michelin-Star Chef Enrico Derflingher, the current chairman of Euro-Toques International, Gentile promises the classics with a few unexpected twists on our menu. Mixologist and James Beard recipient Elayne Duff designed our cocktail menu. Duff has created cocktails for some of New York City's finest restaurants, including Le Bernardin. Our servers are trained to help our adorned guests pair delicious cocktails with their food!​" },
+    {"title": "Art & Decor",
+         "cols": 2, 
+         "rows": 1, 
+        "img":"",
+        "images":{
+            "icecream":"https://cdn.discordapp.com/attachments/401708831920488449/449918370263990272/220px-Ice_Cream_dessert_02.jpg",
+            "icecream2":"https://cdn.discordapp.com/attachments/401708831920488449/449918443655790603/576px-Ice_Cream_dessert_01.jpg" 
+        },
+        "content":"Signature portraits commissioned specifically for Adoro Lei by featured artist Dessie Jackson adorn the walls of the space. An up and coming artist, featured in Nylon Magazine, Milk Made, Complex etc. Her commissions have included original portraits of Robert Plant, Julian Casablancas, Holly Herndon and more for the likes of Vice and Noisy. DiBugnara directed Jackson to create custom paintings inspired by phrases that embody adoration, such as 'kiss me', 'hug me' and 'toast me'.For the design of the restaurant, DiBugnara collaborated with Davide de Angelis of Mobile de Angelis. From NYC, Naples, London, The Hamptons and beyond, de Angelis brought an award winning resume to the pizza party!" }
+    ]
+}
